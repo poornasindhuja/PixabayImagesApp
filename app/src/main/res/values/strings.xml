@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pixabay Images App</string>
+    <string name="error_msg">Enter Some Name</string>
 </resources>

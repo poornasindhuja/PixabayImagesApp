@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity{
                     i_name = imgName.getText().toString().trim();
                     if (i_name.equals("")) {
                         err.setVisibility(View.VISIBLE);
-                        err.setText("Enter Some Name");
+                        err.setText(R.string.error_msg);
                     } else {
                         Intent i = new Intent(getApplicationContext(), ImagesActivity.class);
                         i.putExtra("name", imgName.getText().toString());
